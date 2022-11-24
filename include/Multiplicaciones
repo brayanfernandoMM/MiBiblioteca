@@ -1,0 +1,52 @@
+#if !defined(MULTIPLICACIONES)
+#define MULTIPLICACIONES
+
+/** @brief Calcula la multiplicación de dos sumas
+ * @param a un numero de tipo doble
+ * @param b un numero de tipo doble
+ * @param c un numero de tipo doble
+ * @param d un numero de tipo doble
+ * @param sum1 La primera suma entre un numero a + b
+ * @param sum2 La segunda suma entre un numero c + d
+ * @param multiplicacion  hace la operacion entre las dos sumas
+ * @returns sum1*sum2
+ */
+double mulSums(const double& a, const double& b,const double& c, const double& d);
+
+/** @brief Calcula la multiplicación de dos multiplicaciones
+ * @param a un numero de tipo doble
+ * @param b un numero de tipo doble
+ * @param c un numero de tipo doble
+ * @param d un numero de tipo doble
+ *  @param mul1 La primera multiplicacion entre un numero a * b
+ *  @param mul2 La segunda multiplicacion entre un numero c * d
+ *  @param multiplicacion  hace la operacion entre las dos multiplicaciones
+ *  @returns mul1*mul2
+ */
+double mulMuls(const double& a, const double& b,const double& c, const double& d);
+
+/** @brief Calcula la multiplicación de dos restas
+ * @param a un numero de tipo doble
+ * @param b un numero de tipo doble
+ * @param c un numero de tipo doble
+ * @param d un numero de tipo doble
+ *  @param resta La primera resta entre un numero a - b
+ *  @param resta La segunda resta entre un numero c - d
+ *  @param multiplicacion  hace la operacion entre las dos restas
+ *  @returns res1-res2
+ */
+double mulRes(const double& a, const double& b,const double& c, const double& d);
+
+/** @brief Calcula la multiplicación de dos divisiones
+ * @param a un numero de tipo doble
+ * @param b un numero de tipo doble
+ * @param c un numero de tipo doble
+ * @param d un numero de tipo doble
+ *  @param div1 La primera division entre un numero a / b
+ *  @param div2 La segunda division entre un numero c / d
+ *  @param multiplicacion  hace la operacion entre las dos divisiones
+ *  @returns div1*div2
+ */
+double mulDivs(const double& a, const double& b, const double& c, const double& d);
+
+#endif
